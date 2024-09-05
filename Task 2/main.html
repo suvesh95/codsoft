@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- sniper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/style.css">
+    <!-- box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <!-- header design  -->
+        <a href="#" class="logo">Portfolio</a>
+
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About </a>
+            <a href="#services">Services </a>
+            <a href="#portfolio">Project</a>
+            <a href="#contact">Contact </a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"> </div>
+
+    </header>
+
+
+    <!-- home section  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>hello , I am </h3>
+            <h1>Suvesh Kumar </h1>
+            <p> An Front-end web developer </p>
+
+
+            <div class="social-media">
+                
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bxs-camera'></i>
+                    <h3>Web Developer </h3>
+                </div>
+                <div class="profession" style="--i:1">
+                    <i class='bx bxs-video-recording'></i>
+                    <h3> VFx-Editor</h3>
+                    <!-- style give  look at it what it is -->
+                </div>
+                <div class="profession" style="--i:2">
+                    <i class='bx bxs-palette'></i>
+                    <h3>Graphic Designer</h3>
+                </div>
+                <div class="profession" style="--i:3">
+                    <i class='bx bx-message-dots'></i>
+                    <h3>Discord</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="/picture1.jpg">
+        </div>
+
+
+    </section>
+
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/picture1.jpg">
+
+
+        </div>
+        <div class="about-content">
+            <h2 class="heading">MY <span>SELF</span></h2>
+            <br>
+            <p>I'm a Retrophile.I’m Suvesh Kumar, a 4th-year BTech CSE student at AKTU University.<br>I’m passionate about artificial intelligence and machine learning, with hands-on experience in Python and TensorFlow.<br> Recently, I developed a weather forecasting as part of a class project. <br>I’m eager to dive deeper into data science and explore new tech opportunities.<br>Let’s connect if you’re interested in tech, AI, or just want to chat.
+                <br>
+                <br>
+
+
+                - 🧠 Coding is my sidejob. <br><br>
+                - ⚡ Fun fact I am typistat 35+ wpm. <br><br>
+                Apart from Tech, I love to do reading Novels . Moreover, I am good at learning and
+                always open to challenges.
+            </p><br>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+
+    <!-- services section  -->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML & CSS</h3>
+                <p>HTML is a markup language used to create static web pages and web applications. CSS is a style sheet language responsible for the presentation of documents written in a markup language. </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>JAVASCRIPT</h3>
+                <p>JavaScript, often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior.  </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-nodejs'></i>
+                <h3>NODE JS</h3>
+                <p>Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine, and executes </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-react'></i>
+                <h3>REACT JS</h3>
+                <p>React is a free and open-source front-end JavaScript library for building user interfaces based on components by Facebook Inc. It is maintained by Meta and a community of individual developers and companies.  </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-c-plus-plus'></i>
+                <h3>C++</h3>
+                <p>C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs. C++ is portable and can be used to develop applications that can be adapted to multiple platforms. </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-mongodb'></i>
+                <h3>MONGO DB</h3>
+                <p>MongoDB is a source-available, cross-platform, document-oriented database program. Classified as a NoSQL database product, MongoDB utilizes JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. </p>
+                <a href="" class="btn" id="btn" onclick="readtext()">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-python'></i>
+                <h3>PYTHON</h3>
+                <P>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. It was created by Guido van Rossum and released in 1991.</P>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section  -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="/picture2.png " alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Weather App</h4><br>
+                    <p> Technologies used are: HTML, CSS, JavaScript and PHP. And the information is store data on Apache server.</p>
+                    <a href="#"><i class='bx bx-plus-medical'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/picture3.jpg " alt="">
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>Calculator using html, css and JAVASCRIPT</p>
+                    <a href="#"><i class='bx bx-plus-medical'></i></a>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- testimonial section -->
+    <div class="testimonial-container">
+        <h2 class="heading">MY <span>Socials</span></h2>
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        
+                        <i class='bx bxl-linkedin-square' > </i>
+                        
+                        <h3>LinkedIn </h3>
+                       
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+
+                       
+                        <i class='bx bxl-twitter' ></i>
+                        <h3>Twitter</h3>
+                        
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <!-- <img src="/img/Snapchat-679715854.jpg" alt=""> -->
+                        <i class='bx bxl-github' ></i>
+                        <h3>Github</h3>
+                        
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-scrollbar"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section  -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Reach<span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="last name">
+            </div>
+            <div class="input-box">
+                <input type="Number" placeholder="Mobile number">
+                <input type="email" placeholder="email">
+            </div>
+            <textarea name="" id="" cols="30" rows="10">Yours Message</textarea>
+            <input type="text" value="send message " class="btn">
+        </form>
+    </section>
+
+    <!-- footer design  -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Suvesh Kumar | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="/index.js">
+    </script>
+    <!-- sniper js  -->
+</body>
+
+</html>
